@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Research Center</title>
+	<meta charset="utf-8" />
+	
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body class="body" >
+	
+	<header class="mainHeader">
+		
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+
+
+
+
+<div class="w3-content w3-section" " >
+
+  <img class="mySlides" src="img\logo.jpg" ">
+  <img class="mySlides" src="img\logo1.jpg" ">
+  <img class="mySlides" src="img\logo2.jpg
+  " ">
+  <img class="mySlides" src="img\logo3.png" ">
+  <img class="mySlides" src="img\logo5.jpg" ">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+
+
+		<nav><ul>
+	<li ><a href="index.html">Home</a></li>
+			<li><a href="projects.html">Research Projects </a> </li>
+				<li><a href="publications.html">Publications</a></li>
+				<li><a href="members.html">Members</a></li>
+				<li><a href="news.html">News and Events</a></li>
+		<li class="active"><a href="contact.html">Contact us</a></li>
+		</ul></nav>
+	</header>
+		
+	<div class="mainContent" style="width:100%;">
+		<div class="content">
+				<article class="topcontent">	
+					<header>
+						<h2><a href="#" rel="bookmark" title="Permalink to this POST TITLE">Contact Us </a></h2>
+					</header>
+					
+					<content >
+						<ul>
+							<li align="justify">Sharif College of Engineering & Technology.
+</li>
+							<li align="justify">Raiwind Road, Lahore,Pakistan.</li>
+							<li align="justify">E-Mail: engrtalhakhan@gmail.com, talha.khan@ieee.org</li>
+							<li align="justify">Tel: +92-42-35453294-143 </li>
+							<li align="justify">Mob: +92-331-766-3401</li>
+							
+						</ul> 
+					</content>
+				
+
+					
+				</article>
+
+		
+		</div>
+			<aside class="top-sidebar">
+					<img src="img\c.jpg" alt="Contact us" style="width:100%;">
+				</aside>
+	</div>
+	
+	<footer class="mainFooter">
+		<p> Site Designed and Developed By <a href="https://www.linkedin.com/in/muhammad-sohaib-a858b9a7/">M.Sohaib</a></p>
+	</footer>
+
+</body>
+</html>

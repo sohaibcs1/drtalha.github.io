@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="form.css" >
+<head>
+	<title>
+		Feedback Us!
+	</title>
+	</head>
+<?php include('welcome.php'); ?>
+	<body align="center">
+	<div class="col-md-6 col-md-offset-3" id="form_container">
+                    <h2>Feedback Us</h2> 
+                    <p> Please send your message below. We will get back to you at the earliest! </p>
+					
+	<form name="form" method="post" action="welcome.php"  > 
+	Message:<br>
+	<textarea name="message" id="message" maxlength="6000" rows="10" width="10">  
+			 
+	</textarea>
+	<br>
+	Your Name:<br> <input type="text" name="name"><br>
+	Email: <br><input type="text" name="email"><br>
+	<br>
+	Gender:<br>
+	Male<input type="radio" name="gender" value="Male">
+	Female<input type="radio" name="gender" value="Female"><br>
+	<br>
+	Country:<select name="county">
+	<option value="USA">USA</option>
+	<option value="Pakistan">Pakistan</option>
+	<option value="UK">Uk</option>
+	<option value="India">India</option>
+	<option value="China">China</option>
+	<option value="Japan">Japan</option>
+	<option value="Australia">Australia</option>
+	</select>
+	<br>
+	<br> <input type="submit" name="submit">
+	</form>
+
+
+</div>
+</body>
+</html>
